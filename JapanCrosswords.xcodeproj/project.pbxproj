@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F14426117174669005678B7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F14426017174668005678B7 /* QuartzCore.framework */; };
+		6F14426417174FAB005678B7 /* JCDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F14426317174FAB005678B7 /* JCDescription.m */; };
+		6F850C051715B1A00021083F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F850C041715B1A00021083F /* UIKit.framework */; };
+		6F850C071715B1A00021083F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F850C061715B1A00021083F /* Foundation.framework */; };
+		6F850C091715B1A00021083F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F850C081715B1A00021083F /* CoreGraphics.framework */; };
+		6F850C0F1715B1A00021083F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C0D1715B1A00021083F /* InfoPlist.strings */; };
+		6F850C111715B1A00021083F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C101715B1A00021083F /* main.m */; };
+		6F850C151715B1A00021083F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C141715B1A00021083F /* AppDelegate.m */; };
+		6F850C171715B1A10021083F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C161715B1A10021083F /* Default.png */; };
+		6F850C191715B1A10021083F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C181715B1A10021083F /* Default@2x.png */; };
+		6F850C1B1715B1A10021083F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C1A1715B1A10021083F /* Default-568h@2x.png */; };
+		6F850C1E1715B1A10021083F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C1D1715B1A10021083F /* ViewController.m */; };
+		6F850C211715B1A10021083F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C1F1715B1A10021083F /* ViewController.xib */; };
+		6F850C2A1715B3900021083F /* JCMakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C281715B38F0021083F /* JCMakeViewController.m */; };
+		6F850C2B1715B3900021083F /* JCMakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F850C291715B3900021083F /* JCMakeViewController.xib */; };
+		6F850C2E1715B4250021083F /* JCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C2D1715B4250021083F /* JCView.m */; };
+		6F850C311716197A0021083F /* JCSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C301716197A0021083F /* JCSideView.m */; };
+		6F850C341716199B0021083F /* JCCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F850C331716199B0021083F /* JCCenterView.m */; };
+		6FBDF9541729585B00B3469F /* JCSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDF9531729585B00B3469F /* JCSolution.m */; };
+		6FBDF9571729588D00B3469F /* JCCrossword.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBDF9561729588D00B3469F /* JCCrossword.m */; };
+		6FCCDA0417208BF200DEB00C /* JCResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCDA0317208BF200DEB00C /* JCResolver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F14426017174668005678B7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F14426217174FAA005678B7 /* JCDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDescription.h; sourceTree = "<group>"; };
+		6F14426317174FAB005678B7 /* JCDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDescription.m; sourceTree = "<group>"; };
+		6F850C011715B1A00021083F /* JapanCrosswords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapanCrosswords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F850C041715B1A00021083F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F850C061715B1A00021083F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F850C081715B1A00021083F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F850C0C1715B1A00021083F /* JapanCrosswords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JapanCrosswords-Info.plist"; sourceTree = "<group>"; };
+		6F850C0E1715B1A00021083F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F850C101715B1A00021083F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F850C121715B1A00021083F /* JapanCrosswords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JapanCrosswords-Prefix.pch"; sourceTree = "<group>"; };
+		6F850C131715B1A00021083F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F850C141715B1A00021083F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F850C161715B1A10021083F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6F850C181715B1A10021083F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6F850C1A1715B1A10021083F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6F850C1C1715B1A10021083F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F850C1D1715B1A10021083F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F850C201715B1A10021083F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6F850C271715B38F0021083F /* JCMakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMakeViewController.h; sourceTree = "<group>"; };
+		6F850C281715B38F0021083F /* JCMakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMakeViewController.m; sourceTree = "<group>"; };
+		6F850C291715B3900021083F /* JCMakeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCMakeViewController.xib; sourceTree = "<group>"; };
+		6F850C2C1715B4250021083F /* JCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCView.h; sourceTree = "<group>"; };
+		6F850C2D1715B4250021083F /* JCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCView.m; sourceTree = "<group>"; };
+		6F850C2F1716197A0021083F /* JCSideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSideView.h; sourceTree = "<group>"; };
+		6F850C301716197A0021083F /* JCSideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSideView.m; sourceTree = "<group>"; };
+		6F850C321716199B0021083F /* JCCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCenterView.h; sourceTree = "<group>"; };
+		6F850C331716199B0021083F /* JCCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCenterView.m; sourceTree = "<group>"; };
+		6FBDF9521729585B00B3469F /* JCSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSolution.h; sourceTree = "<group>"; };
+		6FBDF9531729585B00B3469F /* JCSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSolution.m; sourceTree = "<group>"; };
+		6FBDF9551729588D00B3469F /* JCCrossword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCrossword.h; sourceTree = "<group>"; };
+		6FBDF9561729588D00B3469F /* JCCrossword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCrossword.m; sourceTree = "<group>"; };
+		6FCCDA0217208BF200DEB00C /* JCResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCResolver.h; sourceTree = "<group>"; };
+		6FCCDA0317208BF200DEB00C /* JCResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCResolver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F850BFE1715B1A00021083F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F14426117174669005678B7 /* QuartzCore.framework in Frameworks */,
+				6F850C051715B1A00021083F /* UIKit.framework in Frameworks */,
+				6F850C071715B1A00021083F /* Foundation.framework in Frameworks */,
+				6F850C091715B1A00021083F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F850BF81715B1A00021083F = {
+			isa = PBXGroup;
+			children = (
+				6F14426017174668005678B7 /* QuartzCore.framework */,
+				6F850C0A1715B1A00021083F /* JapanCrosswords */,
+				6F850C031715B1A00021083F /* Frameworks */,
+				6F850C021715B1A00021083F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F850C021715B1A00021083F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F850C011715B1A00021083F /* JapanCrosswords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F850C031715B1A00021083F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F850C041715B1A00021083F /* UIKit.framework */,
+				6F850C061715B1A00021083F /* Foundation.framework */,
+				6F850C081715B1A00021083F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F850C0A1715B1A00021083F /* JapanCrosswords */ = {
+			isa = PBXGroup;
+			children = (
+				6F850C131715B1A00021083F /* AppDelegate.h */,
+				6F850C141715B1A00021083F /* AppDelegate.m */,
+				6F850C1C1715B1A10021083F /* ViewController.h */,
+				6F850C1D1715B1A10021083F /* ViewController.m */,
+				6F850C1F1715B1A10021083F /* ViewController.xib */,
+				6F850C271715B38F0021083F /* JCMakeViewController.h */,
+				6F850C281715B38F0021083F /* JCMakeViewController.m */,
+				6F850C291715B3900021083F /* JCMakeViewController.xib */,
+				6F850C2C1715B4250021083F /* JCView.h */,
+				6F850C2D1715B4250021083F /* JCView.m */,
+				6F850C2F1716197A0021083F /* JCSideView.h */,
+				6F850C301716197A0021083F /* JCSideView.m */,
+				6F850C321716199B0021083F /* JCCenterView.h */,
+				6F850C331716199B0021083F /* JCCenterView.m */,
+				6F14426217174FAA005678B7 /* JCDescription.h */,
+				6F14426317174FAB005678B7 /* JCDescription.m */,
+				6FBDF9521729585B00B3469F /* JCSolution.h */,
+				6FBDF9531729585B00B3469F /* JCSolution.m */,
+				6FCCDA0217208BF200DEB00C /* JCResolver.h */,
+				6FCCDA0317208BF200DEB00C /* JCResolver.m */,
+				6FBDF9551729588D00B3469F /* JCCrossword.h */,
+				6FBDF9561729588D00B3469F /* JCCrossword.m */,
+				6F850C0B1715B1A00021083F /* Supporting Files */,
+			);
+			path = JapanCrosswords;
+			sourceTree = "<group>";
+		};
+		6F850C0B1715B1A00021083F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F850C0C1715B1A00021083F /* JapanCrosswords-Info.plist */,
+				6F850C0D1715B1A00021083F /* InfoPlist.strings */,
+				6F850C101715B1A00021083F /* main.m */,
+				6F850C121715B1A00021083F /* JapanCrosswords-Prefix.pch */,
+				6F850C161715B1A10021083F /* Default.png */,
+				6F850C181715B1A10021083F /* Default@2x.png */,
+				6F850C1A1715B1A10021083F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F850C001715B1A00021083F /* JapanCrosswords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F850C241715B1A10021083F /* Build configuration list for PBXNativeTarget "JapanCrosswords" */;
+			buildPhases = (
+				6F850BFD1715B1A00021083F /* Sources */,
+				6F850BFE1715B1A00021083F /* Frameworks */,
+				6F850BFF1715B1A00021083F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapanCrosswords;
+			productName = JapanCrosswords;
+			productReference = 6F850C011715B1A00021083F /* JapanCrosswords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F850BF91715B1A00021083F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Alexander Naumenko";
+			};
+			buildConfigurationList = 6F850BFC1715B1A00021083F /* Build configuration list for PBXProject "JapanCrosswords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F850BF81715B1A00021083F;
+			productRefGroup = 6F850C021715B1A00021083F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F850C001715B1A00021083F /* JapanCrosswords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F850BFF1715B1A00021083F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F850C0F1715B1A00021083F /* InfoPlist.strings in Resources */,
+				6F850C171715B1A10021083F /* Default.png in Resources */,
+				6F850C191715B1A10021083F /* Default@2x.png in Resources */,
+				6F850C1B1715B1A10021083F /* Default-568h@2x.png in Resources */,
+				6F850C211715B1A10021083F /* ViewController.xib in Resources */,
+				6F850C2B1715B3900021083F /* JCMakeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F850BFD1715B1A00021083F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F850C111715B1A00021083F /* main.m in Sources */,
+				6F850C151715B1A00021083F /* AppDelegate.m in Sources */,
+				6F850C1E1715B1A10021083F /* ViewController.m in Sources */,
+				6F850C2A1715B3900021083F /* JCMakeViewController.m in Sources */,
+				6F850C2E1715B4250021083F /* JCView.m in Sources */,
+				6F850C311716197A0021083F /* JCSideView.m in Sources */,
+				6F850C341716199B0021083F /* JCCenterView.m in Sources */,
+				6F14426417174FAB005678B7 /* JCDescription.m in Sources */,
+				6FCCDA0417208BF200DEB00C /* JCResolver.m in Sources */,
+				6FBDF9541729585B00B3469F /* JCSolution.m in Sources */,
+				6FBDF9571729588D00B3469F /* JCCrossword.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F850C0D1715B1A00021083F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F850C0E1715B1A00021083F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F850C1F1715B1A10021083F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F850C201715B1A10021083F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F850C221715B1A10021083F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6F850C231715B1A10021083F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F850C251715B1A10021083F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapanCrosswords/JapanCrosswords-Prefix.pch";
+				INFOPLIST_FILE = "JapanCrosswords/JapanCrosswords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F850C261715B1A10021083F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JapanCrosswords/JapanCrosswords-Prefix.pch";
+				INFOPLIST_FILE = "JapanCrosswords/JapanCrosswords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F850BFC1715B1A00021083F /* Build configuration list for PBXProject "JapanCrosswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F850C221715B1A10021083F /* Debug */,
+				6F850C231715B1A10021083F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F850C241715B1A10021083F /* Build configuration list for PBXNativeTarget "JapanCrosswords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F850C251715B1A10021083F /* Debug */,
+				6F850C261715B1A10021083F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F850BF91715B1A00021083F /* Project object */;
+}
